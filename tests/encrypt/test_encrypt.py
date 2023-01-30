@@ -4,7 +4,7 @@ import pytest
 
 def test_encrypt_message():
 
-    assert encrypt_message("buapau", 3) == "uap_aub" 
+    assert encrypt_message("buapau", 3) == "uap_aub"
     assert encrypt_message("buapau", 4) == "ua_paub"
     assert encrypt_message("buapau", 9) == "uapaub"
 
