@@ -2,10 +2,10 @@ def find_duplicate(nums):
     nums.sort()
 
     number, count = [False, 1]
-    
-    if len(nums) <= 1 or any(isinstance(number, str) for number in nums) is True:
+
+    if len(nums) <= 1 or any(isinstance(n, str) for n in nums) is True:
         return False
-    
+
     for index in range(1, len(nums)):
         cur_number = nums[index]
 
