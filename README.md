@@ -5,8 +5,11 @@ A Trybe propôs seis desafios que envolvem a resolução e otimização de algor
 <details>
   <summary><strong>Objetivos de prática</strong></summary><br />
     <ul>
-      <li>Trabalhar com `Hashmap` e `Dict`</li>
-      <li>Trabalhar com `Set`</li>
+      <li>Lógica</li>
+      <li>Capacidade de interpretação de problemas</li>
+      <li>Capacidade de interpretação de um código legado</li>
+      <li>Capacidade de otimizar a resolução de problemas</li>
+      <li>Otimizar algoritmos sob pressão</li>
     </ul>
 </details>
 <details>
@@ -28,16 +31,20 @@ A Trybe propôs seis desafios que envolvem a resolução e otimização de algor
 
   ```
 .
-├── data
-│   ├──🔹 mkt_campaign.txt
-│   ├──🔸 orders_1.csv
-│   └──🔸 orders_2.csv
-├── src
-│   ├──🔹 analyze_log.py
-│   ├──🔹 inventory_control.py
-│   ├──🔸 main.py
-│   └──🔹 track_orders.py
+├── challenges
+│   ├──🔹 challenge_anagrams.py
+│   ├──🔸 challenge_encrypt_message.py
+│   ├──🔹 challenge_find_the_duplicate.py
+│   ├──🔹 challenge_palindromes_iterative.py
+│   ├──🔹 challenge_palindromes_recursive.py
+│   └──🔹 challenge_study_schedule.py
 ├── tests
+│   ├── encrypt
+│   │   ├──🔸 __init__.py
+│   │   └──🔹 test_encrypt.py
+│   ├──🔸 __init__.py
+│   ├──🔸 complexities.py
+│   └──🔸 geradores.py
 │   └── 🔸__init__.py
 ├── 🔸dev-requirements.txt
 ├── 🔸pyproject.toml
@@ -53,16 +60,24 @@ A Trybe propôs seis desafios que envolvem a resolução e otimização de algor
 </details>
 <details>
   <summary><strong>Detalhes dos Desafios</strong></summary><br />
-  <p>src/analyze_log.py</p>
+  <p>challenges/challenge_study_schedule.py</p>
     <ul>
-      <li>A função lê os arquivos que contêm as informações dos pedidos realizados e gera o relatório solicitado.</li>
+      <li>O objetivo é determinar quantos estudantes estão online com base nos horários fornecidos em um array de tuplas, em comparação com a hora atual informada.</li>
     </ul>	
-  <p>src/track_orders.py</p>
+  <p>challenges/challenge_palindromes_recursive.py</p>
     <ul>
-      <li>Classe que simula um sistema de registro contínuo das informações de pedidos</li>
+      <li>Realizar a avaliação recursiva de uma palavra para determinar se ela é um palíndromo.</li>
     </ul>
-  <p>src/inventory_control.py</p>
+  <p>challenges/challenge_anagrams.py</p>
     <ul>
-      <li>Classe de gerenciamento do estoque de um estabelecimento</li>
+      <li>O objetivo é verificar se as palavras fornecidas são anagramas.</li>
+    </ul>
+  <p>challenge_find_the_duplicate.py</p>
+    <ul>
+      <li>O desafio consistia em encontrar o número duplicado em um array de números.</li>
+    </ul>
+  <p>challenge_palindromes_iterative.py</p>
+    <ul>
+      <li>Realizar a avaliação de uma palavra para determinar se ela é um palíndromo, porém dessa vez utilizando a solução iterativa.</li>
     </ul>
 </details>
